@@ -1,4 +1,5 @@
 notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
-data
+audio
+__pycache__

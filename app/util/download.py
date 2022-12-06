@@ -24,4 +24,4 @@ def download_if_not_exist(url: str, filename: str) -> None:
                 size = file.write(data)
                 prog_bar.update(size)
     else:
-        print(f"File {filename} already exits")
+        print(f"File {filename} already exists")
